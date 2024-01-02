@@ -7,6 +7,6 @@ In this game I've covered more about:
 * Sound
 * ParticleEffects.
 
-Impromed my skill in:
+Improved my skills in:
 * Programming
 * Bug fixing
