@@ -928,6 +928,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 0703a1849c2c89b4db4568688faf0c5f, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 716964781016516460, guid: 0703a1849c2c89b4db4568688faf0c5f, type: 3}
       propertyPath: jumpSound
       value: 
@@ -1256,7 +1260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5c2541b304e5f948a688606a1a046a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 4294774421128595532, guid: 44ed01a2095eca04f9de10d1a5d54c86, type: 3}
+  prefab: {fileID: 1542420302004563533, guid: 44ed01a2095eca04f9de10d1a5d54c86, type: 3}
 --- !u!4 &1813418583
 Transform:
   m_ObjectHideFlags: 0

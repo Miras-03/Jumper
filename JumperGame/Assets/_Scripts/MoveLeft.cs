@@ -6,7 +6,7 @@ public sealed class MoveLeft : MonoBehaviour, IDeathObserver
     private Coroutine coroutine;
     [SerializeField] private int speed = 10;
 
-    private void Start() => coroutine = StartCoroutine(Move());
+    private void OnEnable() => StartCoroutine(Move());
 
     private IEnumerator Move()
     {
@@ -17,9 +17,5 @@ public sealed class MoveLeft : MonoBehaviour, IDeathObserver
         }
     }
 
-    public void ExecuteDeath()
-    {
-        if (coroutine != null) 
-            StopCoroutine(coroutine);
-    }
+    public void ExecuteDeath() => StopCoroutine(coroutine);
 }
